@@ -1,61 +1,76 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    background-color:#FCFCFC !important;
-   }
-   
-   div,ul,li,section,a{
-       margin: 0px;
-       padding: 0px;
-   }
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fcfcfc !important;
+  font-family: "Open Sans", sans-serif !important;
+}
 
-   /*.navbar{
-    margin: 0px;
-    padding: 0px !important;
-    height: 5em;
-    justify-content: space-between;
-    background-color: red !important;
-   }
+div,
+ul,
+li,
+section,
+a {
+  margin: 0px;
+  padding: 0px;
+}
 
-  .nav-item{
-      background-color: purple !important;
-      display: flex;
-      height: 5em;
-      align-items: center;
-  }
+.container-fluid {
+  width: 90% !important;
+}
 
-  .nav-link{
-      color: pink;
-  }
+#navbar {
+  margin: 0px;
+  padding: 0px !important;
+  height: 5em;
+  background-image: url(../IMG/cover.jpg);
+  background-position: bottom;
+}
 
-  .nav-item:hover{
-      background-color: royalblue !important;
-  }*/
+.navbar-in {
+  justify-content: space-between;
+}
 
-  .header-icon-container{
-    height: 120px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
+.nav-item {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  display: flex;
+  height: 5em;
+  align-items: center;
+}
 
-  .header-icon{
-    position: absolute;
-    margin-top: -60px;
-  }
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
 
-  .header-icon img {
-    display: block;
-    height: 120px;
-    width: 120px;
-    border: 8px solid #fafafa;
-    border-radius: 50%;
+.nav-link{
+ font-size: 1.1em;
+ font-weight: bold;
+ text-transform: capitalize;
+}
+
+.header-icon-container {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-icon {
+  position: absolute;
+  margin-top: -60px;
+}
+
+.header-icon img {
+  display: block;
+  height: 120px;
+  width: 120px;
+  border: 8px solid #fafafa;
+  border-radius: 50%;
 }
 
 .header-title {
-    display: flex;
-    justify-content: center;
-    margin-top: -7.2%;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: -7.2%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
 }
