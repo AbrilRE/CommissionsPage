@@ -18,12 +18,26 @@ a {
   width: 90% !important;
 }
 
+.icon {
+  width: 50px;
+  padding-right: 8px;
+
+}
+
 #navbar {
   margin: 0px;
   padding: 0px !important;
-  height: 5em;
   background-image: url(../IMG/cover.jpg);
-  background-position: bottom;
+  background-position: center;
+  background-size:100%;
+}
+
+@media only screen and (max-width: 768px) {
+  [id*="navbar"] {
+    background-size:1900px 350px !important;
+    background-position: right !important;
+    background-repeat: no-repeat;
+  }
 }
 
 .navbar-in {
@@ -31,20 +45,20 @@ a {
 }
 
 .nav-item {
-  background-color: rgba(255, 255, 255, 0.15) !important;
+  background-color: rgba(255, 255, 255, 0.6) !important;
+  height: 52px;
   display: flex;
-  height: 5em;
   align-items: center;
 }
 
 .nav-item:hover {
-  background-color: rgba(255, 255, 255, 0.4) !important;
+  background-color: rgba(255, 255, 255, 0.85) !important;
 }
 
-.nav-link{
- font-size: 1.1em;
- font-weight: bold;
- text-transform: capitalize;
+.nav-link {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 .header-icon-container {
@@ -56,7 +70,7 @@ a {
 
 .header-icon {
   position: absolute;
-  margin-top: -60px;
+  margin-top: -40px;
 }
 
 .header-icon img {
