@@ -35,7 +35,7 @@ p {
 }
 
 .sec-1 {
-  background-image: url(/IMG/back.jpg);
+  background-image: url(../IMG/back.jpg);
   opacity: 90%;
   background-size: 110%;
   background-position-y: 80%;
@@ -58,20 +58,20 @@ p {
 }
 
 .nav-item {
-  background-color: rgba(255, 255, 255, 0.3) !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
   height: 52px;
   display: flex;
   align-items: center;
 }
 
 .nav-item:hover {
-  background-color: rgba(255, 255, 255, 0.85) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
 }
 
 .nav-link {
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-weight: bold;
-  text-transform: capitalize;
+  font-variant: small-caps;
 }
 
 .title {
@@ -81,13 +81,17 @@ p {
   flex-direction: column;
 }
 
-.name {
-  width: 40%;
-  opacity: 90%;
+.name-title{
+  font-size: 12em;
+  font-weight: 600;
+  font-variant: small-caps;
+  font-stretch: extra-expanded;
+  letter-spacing: 20px;
+  opacity: 100%;
 }
 
 .line {
-  margin-top: 1.5%;
+  margin-top: -4%;
   width: 55%;
   background-color: rgb(0, 0, 0);
   opacity: 60%;
@@ -102,10 +106,12 @@ p {
 .subtitle {
   margin-top: 5%;
   margin-bottom: 3%;
-  font-size: 2.5em;
+  font-size: 3em;
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-weight: bold;
+  font-variant: small-caps;
 }
 
 .gallery1,
@@ -129,20 +135,55 @@ p {
   transform: scale(1.02);
 }
 
+.commission1,.commission2,.commission3{
+  width: 90%;
+  transition: 300ms all;
+}
+
+.commission2{
+  margin-top: 10%;
+}
+
+.commission3{
+  margin-top: 20%;
+}
+
+.commission1:hover,.commission2:hover,.commission3:hover{
+  transform: scale(1.02);
+}
+
+
+.com-subtitle{
+ font-size: 1.7em;
+ font-style: oblique;
+}
+
 @media only screen and (max-width: 768px) {
-  [class*="name"] {
-    width: 70%;
+  [class*="sec-1"]  {
+    background-size: 100%;
+    background-position-y: 0%;
+  }
+  [class*="name-title"] {
+      font-size: 4.5em;
+      letter-spacing: 5px;  
   }
   [class*="line"] {
-    margin-top: 10px;
+    margin-top: -20px;
     width: 90%;
   }
   [class*="ocupation"] {
-    font-size: 12px !important;
+    font-size: 13px !important;
   }
 
   [class*="button"]  {
     padding: 8px 15px !important;
     font-size: 13px;
+  }
+
+  [class*="subtitle"] {
+    font-size: 1.8em;
+  }
+  [class*="com-subtitle"] {
+    font-size: 1.1em;
   }
 }
