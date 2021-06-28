@@ -152,28 +152,31 @@
         <!--About-->
         <p class="subtitle">About Me</p>
         <div class="row justify-content-center">
-          <div class="col-lg-3 col-6 col-sm-4">
-            <div class="row justify-content-center">
-              <img class="commission1" src="./IMG/comi1.png" alt="" />
-            </div>
-            <div class="row offset-lg-9">
-              <p class="com-subtitle">Icon</p>
-            </div>
+          <div class="col-lg-3 col-12 d-flex justify-content-center">
+            <img
+              class="about-icon d-none d-md-block"
+              src="./IMG/me.png"
+              alt="Me"
+            />
+            <img
+              class="about-icon d-xl-none d-xxl-block"
+              src="./IMG/hero.png"
+              alt="Me"
+            />
           </div>
-          <div class="col-lg-3 col-6 col-sm-4">
-            <div class="row justify-content-center">
-              <img class="commission2" src="./IMG/comi2.png" alt="" />
-            </div>
-            <div class="row">
-              <p class="com-subtitle offset-lg-7">Halfbody</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-4 d-none d-md-block">
-            <div class="row justify-content-center">
-              <img class="commission3" src="./IMG/comi3.png" alt="" />
-            </div>
-            <div class="row">
-              <p class="com-subtitle offset-lg-7">Fullbody</p>
+          <div class="col-lg-5 col-12">
+            <p class="about-title d-flex">Kimchi</p>
+            <p class="about-subtitle d-flex">Age:23</p>
+            <div class="about-info">
+              Hi there!
+              <br /><br />
+              Let me introduce myself: My nickname it's kimchi, i've been
+              drawing since i have memory! I started on tumblr a while ago and i
+              keept drawing until now.
+              <br /><br />
+              I love creating things and sharing everything i do with everyone.
+              <br />
+              Hope y'all like my art!
             </div>
           </div>
         </div>
@@ -182,6 +185,7 @@
         </div>
         <!--About-->
       </div>
+
       <!--Footer-->
       <div class="footer">
         <div class="container-fluid">
@@ -196,13 +200,13 @@
               <img class="firm-footer" src="./IMG/firm.png" alt="firm" />
             </figure>
             <div class="footer-social">
-              <a href="">
+              <a href="https://www.facebook.com/kiimchi.draws/">
                 <img class="social" src="./IMG/face.png" alt="facebook"
               /></a>
-              <a href="">
+              <a href="https://www.deviantart.com/kimchijaewoo">
                 <img class="social" src="./IMG/dev.png" alt="deviantart"
               /></a>
-              <a href="">
+              <a data-toggle="modal" data-target="#exampleModal">
                 <img class="social" src="./IMG/email.png" alt="email"
               /></a>
             </div>
@@ -211,6 +215,48 @@
       </div>
       <!--Footer-->
     </div>
+
+    <!-- Modal Contact -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title about-title" id="exampleModalLabel">
+              Contact me!
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Please feel free to ask if you have any question!
+            <br />
+            <br />
+            You can contact me through email:
+            <i id="email" style="color: #f991b0"> kimchi.draws@hotmail.com </i>
+            <br />
+            <br />
+            I'll respond as soon as possible!
+          </div>
+          <div class="modal-footer">
+            <button class="button-close" data-dismiss="modal">Close</button>
+            <button id="copy" class="button">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Contact -->
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -222,5 +268,6 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <script src="./JS/script.js"></script>
   </body>
 </html>
