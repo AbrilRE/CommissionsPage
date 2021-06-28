@@ -266,6 +266,7 @@ img {
 @media only screen and (max-width: 768px) {
   #navbar {
     background-color: rgba(255, 255, 255, 0.6) !important;
+    padding: 8px 0px !important;
   }
 
   [class*="nav-item"] {
@@ -275,6 +276,11 @@ img {
   [class*="nav-item"]:hover {
     background-color: rgba(255, 255, 255, 0.7) !important;
   }
+
+  [class*="title"] {
+    margin-top: 2.1vh;
+  }
+  
 
   [class*="sec-1"] {
     background-size: 100%;
