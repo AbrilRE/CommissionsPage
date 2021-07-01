@@ -16,6 +16,14 @@ img {
   padding: 0px;
 }
 
+a{
+  text-decoration: none !important;
+}
+
+a:hover{
+  color: inherit !important;
+}
+
 .navbar-light .navbar-toggler {
   border-color: rgba(0, 0, 0, 0) !important;
 }
@@ -143,32 +151,61 @@ img {
   font-variant: small-caps;
 }
 
-.gallery1,
-.gallery3 {
-  width: 100%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  transition: 300ms all;
+.subtitle-tab {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 2.5em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  font-variant: small-caps;
 }
 
-.gallery2 {
-  margin-bottom: 8%;
-  margin-left: 5%;
-  width: 90%;
+.gallery {
+  margin: 55px 20px;
   transition: 300ms all;
+  padding: 0px !important;
 }
 
-.gallery1:hover,
-.gallery2:hover,
-.gallery3:hover {
+.gallery:hover,.gallery2:hover {
   transform: scale(1.02);
 }
 
-.commission1,
-.commission2,
-.commission3 {
-  width: 90%;
+.gallery > img {
+  width:  42vh;
+  height: 65vh;
+  object-fit: cover;
+  border-radius: 1%;
+}
+
+.gallery2 {
+  margin:30px 5px;
   transition: 300ms all;
+  padding: 0px !important;
+}
+.gallery2 > img{
+  width:  30vh;
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 1%;
+}
+
+.commission {
+  transition: 300ms all;
+  padding: 0px !important;
+  margin: 0px;
+}
+
+.commission > img {
+  width:  42vh;
+  height: 48vh;
+  object-fit: cover;
+  border-radius: 1%;
+}
+
+.commission:hover {
+  transform: scale(1.02);
 }
 
 .commission2 {
@@ -177,12 +214,6 @@ img {
 
 .commission3 {
   margin-top: 20%;
-}
-
-.commission1:hover,
-.commission2:hover,
-.commission3:hover {
-  transform: scale(1.02);
 }
 
 .com-subtitle {
@@ -261,71 +292,4 @@ img {
   width: 28px;
   height: 28px;
   opacity: 80%;
-}
-
-@media only screen and (max-width: 768px) {
-  #navbar {
-    background-color: rgba(255, 255, 255, 0.6) !important;
-    padding: 8px 0px !important;
-  }
-
-  [class*="nav-item"] {
-    background-color: rgba(255, 255, 255, 0) !important;
-  }
-
-  [class*="nav-item"]:hover {
-    background-color: rgba(255, 255, 255, 0.7) !important;
-  }
-
-  [class*="title"] {
-    margin-top: 2.1vh;
-  }
-  
-
-  [class*="sec-1"] {
-    background-size: 100%;
-    background-position-y: 0%;
-  }
-
-  [class*="name-title"] {
-    font-size: 4.5em;
-    letter-spacing: 5px;
-  }
-  [class*="line"] {
-    margin-top: -20px;
-    width: 90%;
-  }
-  [class*="ocupation"] {
-    font-size: 13px !important;
-  }
-
-  [class*="button"] {
-    padding: 8px 15px !important;
-    font-size: 13px;
-  }
-
-  [class*="subtitle"] {
-    font-size: 1.8em;
-  }
-  [class*="com-subtitle"] {
-    font-size: 1.1em;
-  }
-
-  [class*="about-icon"] {
-    width: 50%;
-    border-radius: 100px;
-  }
-
-  [class*="about-title"] {
-    justify-content: center;
-  }
-
-  [class*="about-subtitle"] {
-    font-size: 1em;
-    justify-content: center;
-  }
-
-  [class*="footer-content"] {
-    justify-content: space-between;
-  }
 }

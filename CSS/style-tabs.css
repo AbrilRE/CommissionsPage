@@ -1,0 +1,52 @@
+/*portfolio*/
+.carousel {
+  width: 95%;
+  margin-bottom: 4%;
+}
+
+.carousel-item {
+  height: 37vh;
+}
+
+.carousel1 {
+  background-image: url(https://64.media.tumblr.com/57f1c5014ae6e67d0d60203cab03056d/96efae5b02b7f830-0e/s2048x3072/e1d06c26c490f88710c4e45aee114690a1421d7f.png);
+  background-position: 40% 30%;
+  background-size: 100%;
+}
+
+.carousel2 {
+  background-image: url(https://64.media.tumblr.com/0bf2ae51baa96e83d84124a68923438d/ef3108ec3e82d0a5-8f/s2048x3072/cd40444097317f6eebdb87441c8820e4bd371bce.png);
+  background-position: 40% 30%;
+  background-size: 100%;
+}
+
+.carousel3 {
+  background-image: url(https://64.media.tumblr.com/23bfef8fdb3375d6ea82f1cee944af86/a0621f14eac02100-3a/s2048x3072/fb23ed85e61567caa93727b5b6430297a3c9f92e.png);
+  background-position: 40% 55%;
+  background-size: 100%;
+}
+
+.porfolio-gallery {
+  margin: 15px 15px;
+  transition: 300ms all;
+}
+
+.porfolio-gallery:hover {
+  transform: scale(1.02);
+}
+
+.porfolio-gallery > img {
+  float: left;
+  width:  41vh;
+  height: 55vh;
+  object-fit: cover;
+  border-radius: 1%;
+}
+
+.button-up{
+  width: 20%;
+  height: 100%;
+}
+
+
+/* https://www.w3schools.com/css/css3_images.asp */
