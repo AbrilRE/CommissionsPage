@@ -49,6 +49,7 @@
     [class*="commission"] > img {
       width:  24vh;
       height: 25vh;
+      padding: 10px;
       object-fit: cover;
       border-radius: 1%;
     }
@@ -74,8 +75,8 @@
     }
     
     [class*="gallery"] > img {
-      width:  25vh;
-      height: 35vh;
+      width:  22vh;
+      height: 34vh;
       object-fit: cover;
       border-radius: 1%;
     }
@@ -86,7 +87,7 @@
       padding: 0px !important;
     }
     [class*="gallery2"] > img{
-      width:  20vh;
+      width:  18vh;
       height: 16vh;
       object-fit: cover;
       border-radius: 1%;
