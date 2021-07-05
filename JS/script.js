@@ -1,5 +1,5 @@
-var modal = document.getElementById("modal-gallery");
-var modalImg = document.getElementById("image-gallery");
+var modal = document.getElementById("modal2");
+var modalImg = document.getElementById("gallery-image");
 var captionText = document.getElementById("caption");
 var expandImg;
 
@@ -16,50 +16,50 @@ expandImg = function () {
   };
 };
 
-var img = document.getElementById("image-gallery1");
+var img = document.getElementById("gallery-image1");
 expandImg();
 
-var img = document.getElementById("image-gallery2");
+var img = document.getElementById("gallery-image2");
 expandImg();
 
-var img = document.getElementById("image-gallery3");
+var img = document.getElementById("gallery-image3");
 expandImg();
 
-var img = document.getElementById("image-gallery4");
+var img = document.getElementById("gallery-image4");
 expandImg();
 
-var img = document.getElementById("image-gallery5");
+var img = document.getElementById("gallery-image5");
 expandImg();
 
-var img = document.getElementById("image-gallery6");
+var img = document.getElementById("gallery-image6");
 expandImg();
 
-var img = document.getElementById("image-gallery7");
+var img = document.getElementById("gallery-image7");
 expandImg();
 
-var img = document.getElementById("image-gallery8");
+var img = document.getElementById("gallery-image8");
 expandImg();
 
-var img = document.getElementById("image-gallery9");
+var img = document.getElementById("gallery-image9");
 expandImg();
 
-var img = document.getElementById("image-gallery10");
+var img = document.getElementById("gallery-image10");
 expandImg();
 
-var img = document.getElementById("image-gallery11");
+var img = document.getElementById("gallery-image11");
 expandImg();
 
-var img = document.getElementById("image-gallery12");
+var img = document.getElementById("gallery-image12");
 expandImg();
 
-var img = document.getElementById("image-gallery13");
+var img = document.getElementById("gallery-image13");
 expandImg();
 
-var img = document.getElementById("image-gallery14");
+var img = document.getElementById("gallery-image14");
 expandImg();
 
-var img = document.getElementById("image-gallery15");
+var img = document.getElementById("gallery-image15");
 expandImg();
 
-var img = document.getElementById("image-gallery16");
+var img = document.getElementById("gallery-image16");
 expandImg();
