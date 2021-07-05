@@ -64,7 +64,7 @@ a:hover{
 
 .sec-1 {
   background-image: url(../IMG/back.jpg);
-  opacity: 90%;
+  opacity: 92%;
   background-size: 100%;
   background-position-y: 0%;
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@ a:hover{
 
 .sec-2 {
   background-image: url(../IMG/foot.jpg);
-  opacity: 90%;
+  opacity: 92%;
   background-size: 100%;
   background-position-y: 100%;
   background-repeat: no-repeat;
@@ -173,20 +173,19 @@ a:hover{
 }
 
 .gallery > img {
-  width:  42vh;
-  height: 65vh;
+  width: 90%;
   object-fit: cover;
   border-radius: 1%;
 }
 
 .gallery2 {
-  margin:30px 5px;
+  margin:30px 10px !important;
   transition: 300ms all;
   padding: 0px !important;
 }
 .gallery2 > img{
-  width:  30vh;
-  height: 30vh;
+  width: 100%;
+  height: 28vh;
   object-fit: cover;
   border-radius: 1%;
 }
@@ -198,7 +197,7 @@ a:hover{
 }
 
 .commission > img {
-  width:  42vh;
+  width:  89%;
   height: 48vh;
   object-fit: cover;
   border-radius: 1%;
