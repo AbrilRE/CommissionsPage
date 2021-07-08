@@ -60,17 +60,30 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./portfolio.html" tabindex="-1" aria-disabled="true"
+                <a
+                  class="nav-link"
+                  href="./portfolio.html"
+                  tabindex="-1"
+                  aria-disabled="true"
                   >Portfolio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./commissions.html" tabindex="-1" aria-disabled="true"
+                <a
+                  class="nav-link"
+                  href="./commissions.html"
+                  tabindex="-1"
+                  aria-disabled="true"
                   >Commissions</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./aboutme.html" tabindex="-1" aria-disabled="true">
+                <a
+                  class="nav-link"
+                  href="./aboutme.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                >
                   About me</a
                 >
               </li>
@@ -81,47 +94,217 @@
       <!--NAVBAR-->
 
       <div class="container-fluid">
-        <!--Portfolio-->
-        <p class="subtitle"> Commissions </p>
-        <div class="row justify-content-center">
-          <div class="col-lg-3 col-7 col-sm-4">
-            <img class="gallery1" src="./IMG/gallery2.png" alt="" />
-          </div>
-          <div class="col-lg-2 col-5 col-sm-4">
-            <div class="row">
-              <img class="gallery2" src="./IMG/gallery3.png" alt="" />
+        <!--Commissions-->
+        <p class="subtitle-tab">Commissions</p>
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-7 col-12 window">
+            <div class="window-top">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item-com" role="presentation">
+                  <a
+                    class="nav-link nav-link-com active"
+                    id="home-tab"
+                    data-toggle="tab"
+                    href="#home"
+                    role="tab"
+                    aria-controls="home"
+                    aria-selected="true"
+                  >
+                    <i class="far fa-smile-beam"></i>
+                    <div class="d-none d-md-block ml-2">Icon</div>
+                  </a>
+                </li>
+                <li class="nav-item-com" role="presentation">
+                  <a
+                    class="nav-link nav-link-com"
+                    id="profile-tab"
+                    data-toggle="tab"
+                    href="#profile"
+                    role="tab"
+                    aria-controls="profile"
+                    aria-selected="false"
+                    ><i class="far fa-user"></i>
+                    <div class="d-none d-md-block ml-2">Halfbody</div></a
+                  >
+                </li>
+                <li class="nav-item-com" role="presentation">
+                  <a
+                    class="nav-link nav-link-com"
+                    id="contact-tab"
+                    data-toggle="tab"
+                    href="#contact"
+                    role="tab"
+                    aria-controls="contact"
+                    aria-selected="false"
+                    ><i class="fas fa-male"></i>
+                    <div class="d-none d-md-block ml-2">Fullbody</div></a
+                  >
+                </li>
+              </ul>
+
+              <div class="window-tab">
+                <i class="fas fa-minus p-1"></i>
+                <i class="far fa-window-maximize p-1"></i>
+                <i class="fas fa-times p-1"></i>
+              </div>
             </div>
-            <div class="row">
-              <img class="gallery2" src="./IMG/gallery1.png" alt="" />
+
+            <div class="tab-content window-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+                <p class="window-title">
+                  <i class="fas fa-smile"></i> Icon
+                </p>
+                <hr class="window-line" />
+                <div class="row d-flex justify-content-center mx-2 my-4">
+                  <div class="com-preview col-lg-2">
+                    <img src="./IMG/port8.png" onclick="change(this.src)" />
+                    <img src="./IMG/icon.png" onclick="change(this.src)" />
+                    <img src="./IMG/up.png" onclick="change(this.src)" />
+                    <img src="./IMG/firm.png" onclick="change(this.src)" />
+                  </div>
+                  <div class="com-image col-lg-5">
+                    <img src="./IMG/port8.png" id="main-image" alt="IMAGE" />
+                  </div>
+                  <div class="com-information col-lg-4">
+                    <p class="com-information-title">$20 usd</p>
+                    <p class="com-information-subtitle">+ Extra characters</p>
+                    <p class="com-information-tat">Turn Around Time:</p>
+                    <p class="com-information-tat2">
+                      2 to 3 days max one week.
+                    </p>
+                    <p class="com-information-available">Available</p>
+                    <p class="com-information-more">
+                      <i class="far fa-flag"></i>
+                      <a href="#terms"> More information </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                <p class="window-title">
+                  <i class="fas fa-user-alt pr-2"></i> Halfbody
+                </p>
+                <hr class="window-line" />
+                <div class="row d-flex justify-content-center mx-2 my-4">
+                  <div class="com-preview col-lg-2">
+                    <img src="./IMG/port8.png" onclick="change2(this.src)" />
+                    <img src="./IMG/icon.png" onclick="change2(this.src)" />
+                    <img src="./IMG/up.png" onclick="change2(this.src)" />
+                    <img src="./IMG/firm.png" onclick="change2(this.src)" />
+                  </div>
+                  <div class="com-image col-lg-5">
+                    <img src="./IMG/port8.png" id="main-image2" alt="IMAGE" />
+                  </div>
+                  <div class="com-information col-lg-4">
+                    <p class="com-information-title">$25 usd</p>
+                    <p class="com-information-subtitle">+ Extra characters</p>
+                    <p class="com-information-tat">Turn Around Time:</p>
+                    <p class="com-information-tat2">
+                      4 to 5 days max one week.
+                    </p>
+                    <p class="com-information-available">Available</p>
+                    <p class="com-information-more">
+                      <i class="far fa-flag"></i>
+                      <a href="#terms"> More information </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="contact"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <p class="window-title">
+                  <i class="fas fa-child"></i> Fullbody
+                </p>
+                <hr class="window-line" />
+                <div class="row d-flex justify-content-center mx-2 my-4">
+                  <div class="com-preview col-lg-2">
+                    <img src="./IMG/port8.png" onclick="change3(this.src)" />
+                    <img src="./IMG/icon.png" onclick="change3(this.src)" />
+                    <img src="./IMG/up.png" onclick="change3(this.src)" />
+                    <img src="./IMG/firm.png" onclick="change3(this.src)" />
+                  </div>
+                  <div class="com-image col-lg-5">
+                    <img src="./IMG/port8.png" id="main-image3" alt="IMAGE" />
+                  </div>
+                  <div class="com-information col-lg-4">
+                    <p class="com-information-title">$35 usd</p>
+                    <p class="com-information-subtitle">+ Extra characters</p>
+                    <p class="com-information-tat">Turn Around Time:</p>
+                    <p class="com-information-tat2">
+                      5 to 7 days max one week and a half.
+                    </p>
+                    <p class="com-information-available">Available</p>
+                    <p class="com-information-more">
+                      <i class="far fa-flag"></i>
+                      <a href="#terms"> More information </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-sm-4 d-none d-md-block">
-            <img class="gallery3" src="./IMG/gallery4.png" alt="" />
           </div>
         </div>
-        <div class="row justify-content-center mb-5">
-          <button class="button">View more</button>
+        <!--Commissions-->
+
+        <!--Terms and conditions-->
+        <div>
+          <p class="subtitle-tab" id="terms">Commissions</p>
+          <p class="subtitle2-tab">Terms & conditions</p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
-        <!--Portfolio-->
+        <!--Terms and conditions-->
       </div>
     </div>
 
     <div class="sec-2">
       <div class="container-fluid">
         <!--About-->
-        <p class="subtitle">About Me</p>
+        <p class="subtitle-tab">About Me</p>
         <div class="row justify-content-center">
           <div class="col-lg-3 col-12 d-flex justify-content-center">
             <img
-            class="about-icon d-none d-md-block"
-            src="https://64.media.tumblr.com/5f5d5c8e2903c3f8096f785f6ad0bdf6/c6c975a43e776be1-04/s500x750/5c8ec78ebd89d5f9eb6124de45dad0a58d2d1ed1.png"
-            alt="Me"
-          />
-          <img
-            class="about-icon d-xl-none d-xxl-block"
-            src="https://64.media.tumblr.com/af122b2ec23491a1566ebf6474ef0393/336f30dc2f6fcb4e-6d/s1280x1920/b54d5410c1ef11b5468c23cd2a8de4627d890c23.jpg"
-            alt="Me"
-          />
+              class="about-icon d-none d-md-block"
+              src="https://64.media.tumblr.com/5f5d5c8e2903c3f8096f785f6ad0bdf6/c6c975a43e776be1-04/s500x750/5c8ec78ebd89d5f9eb6124de45dad0a58d2d1ed1.png"
+              alt="Me"
+            />
+            <img
+              class="about-icon d-xl-none d-xxl-block"
+              src="https://64.media.tumblr.com/af122b2ec23491a1566ebf6474ef0393/336f30dc2f6fcb4e-6d/s1280x1920/b54d5410c1ef11b5468c23cd2a8de4627d890c23.jpg"
+              alt="Me"
+            />
           </div>
           <div class="col-lg-5 col-12">
             <p class="about-title d-flex">Kimchi</p>
@@ -210,7 +393,7 @@
           </div>
           <div class="modal-footer">
             <button class="button-close" data-dismiss="modal">Close</button>
-            <button id="copy" class="button"> Copy email </button>
+            <button id="copy" class="button">Copy email</button>
           </div>
         </div>
       </div>
@@ -225,6 +408,10 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/21506e9718.js"
       crossorigin="anonymous"
     ></script>
     <script src="./JS/script.js"></script>

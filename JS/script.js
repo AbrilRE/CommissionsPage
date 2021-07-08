@@ -63,3 +63,22 @@ expandImg();
 
 var img = document.getElementById("gallery-image16");
 expandImg();
+
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+}
+
+function change(src){
+  document.getElementById("main-image").src = src;
+};
+
+function change2(src){
+  document.getElementById("main-image2").src = src;
+};
+
+function change3(src){
+  document.getElementById("main-image3").src = src;
+};
