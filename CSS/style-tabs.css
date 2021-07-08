@@ -46,17 +46,20 @@
 
 .button-up {
   background-color: #f991b0;
+  color: white;
   border: none;
-  padding: 15px 32px;
+  font-size: 20px;
+  padding: 15px 52px;
   text-align: center;
   text-decoration: none;
   transition: 300ms all;
 }
 
-.button-up > img {
-  width: 22%;
-  height: 90%;
+.button-up:hover {
+  background-color: #ae657b;
+  transform: scale(1.02);
 }
+
 
 .modal2 {
   display: none;
@@ -156,7 +159,7 @@
 }
 
 .window-content {
-  height: 480px;
+  height: 67vh;
   padding: 20px;
   margin-bottom: 50px;
   background-color: rgba(255, 255, 255, 0.75);
@@ -234,7 +237,7 @@
 
 .com-image > img {
   float: left;
-  width: 40vh;
+  width: 45vh;
   height: 45vh;
   object-fit: cover;
   border-radius: 2%;
@@ -300,4 +303,14 @@
   color: #000000;
   font-size: 0.8em;
   padding-bottom: 50px;
+}
+
+/*MODAL CONTACT*/
+.modal-content {
+  margin-top: 15vh !important;
+  width: 100% !important;
+}
+
+.modal-body {
+  font-size: 1em;
 }

@@ -287,8 +287,10 @@ a:hover{
 }
 
 .social {
-  margin: 0px 8px;
+  color:black;
+  margin: 0px 5px;
+  font-size: 25px;
   width: 28px;
   height: 28px;
-  opacity: 80%;
+  opacity: 75%;
 }
