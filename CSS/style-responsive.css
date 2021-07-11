@@ -182,6 +182,31 @@
     font-size: 1.5em;
     padding: 1.5em 1em !important;
   }
+
+  [class*="terms-info"] {
+    font-size: 1.6em;
+  }
+
+  [class*="terms-window"] {
+    padding: 70px;
+    padding-bottom: 0px !important;
+  }
+
+  [class*="terms-window2"] {
+    padding: 70px;
+    padding-bottom: 70px !important;
+  }
+  
+  [class*="terms-title"] {
+    padding: 15px 25px;
+    letter-spacing: 5px;
+    font-size: 2.8em;
+  }
+  
+  [class*="terms-details"] {
+    font-size: 1.55em;
+    line-height: 190%;
+  }
 }
 
 /* MEDIUM */
@@ -322,13 +347,14 @@
 
   [class*="subtitle2-tab"] {
     margin-top: -15px;
-    margin-bottom: 3%;
+    margin-bottom: 10%;
     font-size: 1.1em;
   }
 
   [class*="window-content"] {
     height: 110vh;
-    margin-bottom: 45px;
+    margin-bottom: 65px;
+    box-shadow: 0px 23px 30px rgba(0, 0, 0, 0.25) !important;
   }
 
   [class*="window-title"] {
@@ -376,22 +402,54 @@
     padding-bottom: 10px;
   }
 
-  /*MODAL CONTACT*/
-  [class*="modal-content"] {
-    margin-left: 5vh !important;
-    margin-top: 25vh !important;
-    width: 80% !important;
+  /*terms*/
+
+   [class*="terms-info"] {
+    width: 90%;
+    margin-bottom: 15%;
+    font-size: 1em;
   }
 
-  [class*="modal-title"] {
+  [class*="terms-window"] {
+    width: 90%;
+    padding: 25px;
+    padding-bottom: 0px !important;
+  }
+
+  [class*="terms-window2"] {
+    width: 90%;
+    padding: 25px;
+    padding-bottom: 70px !important;
+  }
+  
+  [class*="terms-title"] {
+    padding: 5px 15px;
+    letter-spacing: 1px;
     font-size: 1.5em;
-    margin: 0px;
+  }
+  
+  [class*="terms-details"] {
+    font-size: 1.1em;
+    line-height: 190%;
   }
 
-  [class*="modal-body"] {
-    font-size: 0.8em;
-    padding: 1.5em 1em !important;
-  }
+    /*MODAL CONTACT*/
+    [class*="modal-content"] {
+      margin-left: 5vh !important;
+      margin-top: 25vh !important;
+      width: 80% !important;
+    }
+  
+    [class*="modal-title"] {
+      font-size: 1.5em;
+      margin: 0px;
+    }
+  
+    [class*="modal-body"] {
+      font-size: 0.8em;
+      padding: 1.5em 1em !important;
+    }
+  
 }
 /* MINI */
 @media only screen and (max-width: 375px) {

@@ -126,6 +126,10 @@ a:hover{
   opacity: 95%;
 }
 
+.cursive{
+  color: rgba(0, 0, 0, 0.685);
+}
+
 .line {
   margin-top: -4%;
   width: 55%;

@@ -60,7 +60,6 @@
   transform: scale(1.02);
 }
 
-
 .modal2 {
   display: none;
   position: fixed;
@@ -303,6 +302,60 @@
   color: #000000;
   font-size: 0.8em;
   padding-bottom: 50px;
+}
+
+/*Commissions terms*/
+
+.terms-info {
+  width: 70%;
+  margin-bottom: 4%;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.45);
+  border-radius: 7px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  font-size: 0.98em;
+  line-height: 190%;
+  text-align: justify;
+}
+
+.terms-window {
+  width: 65%;
+  padding: 40px;
+  padding-bottom: 0px !important;
+  background-color: #f991b049;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.terms-window2 {
+  width: 65%;
+  margin-bottom: 100px;
+  padding: 40px;
+  background-color: #f991b049;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 38px 40px rgba(0, 0, 0, 0.1);
+}
+
+.terms-title {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  color: #f991b0;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.terms-details {
+  margin-left: 25px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 0.95em;
+  line-height: 190%;
 }
 
 /*MODAL CONTACT*/
