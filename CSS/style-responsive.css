@@ -144,25 +144,38 @@
 
   [class*="com-information-tat"] {
     font-size: 1.2em;
-    padding: 0px 20px;
+    padding: 0px 30px;
   }
 
   [class*="com-information-tat2"] {
+    padding-left: 30px;
     font-size: 1em;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+  }
+
+  [class*="com-information-details"] {
+    padding-left: 30px;
+    color: #41689b;
+    font-size: 0.95em;
+    padding-bottom: 10px;
+  }
+
+  [class*="com-information-details2"] {
+    color: #000000be;
+    font-size: 0.9em;
+    padding: 0px;
   }
 
   [class*="com-information-available"] {
     font-size: 1.5em;
     font-weight: bold;
-    padding: 0px 20px;
+    padding: 0px 30px;
     padding-bottom: 20px;
   }
 
   [class*="com-information-more"] {
     font-size: 1.1em;
-    padding: 0px 20px;
-    padding-bottom: 50px;
+    padding: 0px 30px;
   }
 
   [class*="subtitle2-tab"] {
@@ -171,19 +184,9 @@
     font-size: 1.9em;
   }
 
-  /*MODAL CONTACT*/
-  [class*="modal-content"] {
-    margin-left: -10vh !important;
-    margin-top: 18vh !important;
-    width: 150% !important;
-  }
-
-  [class*="modal-body"] {
-    font-size: 1.5em;
-    padding: 1.5em 1em !important;
-  }
-
   [class*="terms-info"] {
+    width: 75%;
+    padding: 50px;
     font-size: 1.6em;
   }
 
@@ -196,16 +199,27 @@
     padding: 70px;
     padding-bottom: 70px !important;
   }
-  
+
   [class*="terms-title"] {
     padding: 15px 25px;
     letter-spacing: 5px;
     font-size: 2.8em;
   }
-  
+
   [class*="terms-details"] {
     font-size: 1.55em;
     line-height: 190%;
+  }
+  /*MODAL CONTACT*/
+  [class*="modal-content"] {
+    margin-left: -10vh !important;
+    margin-top: 18vh !important;
+    width: 150% !important;
+  }
+
+  [class*="modal-body"] {
+    font-size: 1.5em;
+    padding: 1.5em 1em !important;
   }
 }
 
@@ -352,7 +366,7 @@
   }
 
   [class*="window-content"] {
-    height: 110vh;
+    height: 113vh;
     margin-bottom: 65px;
     box-shadow: 0px 23px 30px rgba(0, 0, 0, 0.25) !important;
   }
@@ -398,58 +412,72 @@
     font-size: 0.9em;
   }
 
+  [class*="com-information-details"] {
+    color: #41689b;
+    font-size: 0.8em;
+    padding-bottom: 20px;
+  }
+
+  [class*="com-information-details2"] {
+    color: #000000be;
+    font-size: 0.8em;
+    padding: 0px;
+  }
+
   [class*="com-information-more"] {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 
   /*terms*/
-
-   [class*="terms-info"] {
-    width: 90%;
+  [class*="terms-info"] {
+    width: 100%;
+    padding: 32px;
     margin-bottom: 15%;
     font-size: 1em;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
   }
 
   [class*="terms-window"] {
-    width: 90%;
+    width: 95%;
     padding: 25px;
     padding-bottom: 0px !important;
   }
 
   [class*="terms-window2"] {
-    width: 90%;
+    width: 95%;
     padding: 25px;
-    padding-bottom: 70px !important;
+    padding-bottom: 50px !important;
   }
-  
+
   [class*="terms-title"] {
     padding: 5px 15px;
     letter-spacing: 1px;
-    font-size: 1.5em;
-  }
-  
-  [class*="terms-details"] {
-    font-size: 1.1em;
-    line-height: 190%;
+    font-size: 1.4em;
   }
 
-    /*MODAL CONTACT*/
-    [class*="modal-content"] {
-      margin-left: 5vh !important;
-      margin-top: 25vh !important;
-      width: 80% !important;
-    }
-  
-    [class*="modal-title"] {
-      font-size: 1.5em;
-      margin: 0px;
-    }
-  
-    [class*="modal-body"] {
-      font-size: 0.8em;
-      padding: 1.5em 1em !important;
-    }
-  
+  [class*="terms-details"] {
+    font-size: 0.9em;
+    line-height: 170%;
+    text-align: justify;
+    padding-right: 20px;
+  }
+
+  /*MODAL CONTACT*/
+  [class*="modal-content"] {
+    margin-left: 5vh !important;
+    margin-top: 25vh !important;
+    width: 80% !important;
+  }
+
+  [class*="modal-title"] {
+    font-size: 1.5em;
+    margin: 0px;
+  }
+
+  [class*="modal-body"] {
+    font-size: 0.8em;
+    padding: 1.5em 1em !important;
+  }
 }
 /* MINI */
 @media only screen and (max-width: 375px) {

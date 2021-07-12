@@ -217,8 +217,8 @@
 
 .com-preview > img {
   float: left;
-  width: 10vh;
-  height: 10vh;
+  width: 9.5vh;
+  height: 9vh;
   object-fit: cover;
   border-radius: 15%;
   padding: 5px;
@@ -246,7 +246,7 @@
   background-color: rgba(255, 255, 255, 0.815);
   border: solid rgba(0, 0, 0, 0.1) 1px;
   border-radius: 5px;
-  padding: 25px;
+  padding: 20px;
 }
 
 .com-information > p {
@@ -265,33 +265,49 @@
   color: #0000007e;
   font-size: 0.8em;
   letter-spacing: 2px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   font-weight: bold;
 }
 
 .com-information-tat {
+  padding-left:10px;
   color: #000000;
   font-size: 0.9em;
   font-weight: bold;
 }
 
 .com-information-tat2 {
+  padding-left:10px;
   color: #000000;
   font-size: 0.8em;
   padding-bottom: 20px;
 }
 
+.com-information-details {
+  padding-left:10px;
+  color: #41689b;
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
+
+.com-information-details2 {
+  color: #000000be;
+  font-size: 0.9em;
+}
+
 .com-information-available {
+  padding-left:10px;
   color: #3d8a0b;
   font-size: 1em;
   font-weight: bold;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .com-information-more {
+  padding-left:10px;
   color: #41689b;
   font-size: 0.8em;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 .com-information-more > a {
@@ -301,7 +317,6 @@
 .com-information-more:hover {
   color: #000000;
   font-size: 0.8em;
-  padding-bottom: 50px;
 }
 
 /*Commissions terms*/
@@ -311,8 +326,8 @@
   margin-bottom: 4%;
   padding: 40px;
   background-color: rgba(255, 255, 255, 0.45);
-  border-radius: 7px;
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
   font-size: 0.98em;
   line-height: 190%;
   text-align: justify;
@@ -323,7 +338,7 @@
   padding: 40px;
   padding-bottom: 0px !important;
   background-color: #f991b049;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
 }
 
@@ -332,7 +347,7 @@
   margin-bottom: 100px;
   padding: 40px;
   background-color: #f991b049;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 5px 5px;
   box-shadow: 0px 38px 40px rgba(0, 0, 0, 0.1);
 }
 
@@ -341,7 +356,7 @@
   margin-bottom: 10px;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 10px;
+  border-radius: 7px;
   color: #f991b0;
   letter-spacing: 2px;
   font-size: 1.5em;
