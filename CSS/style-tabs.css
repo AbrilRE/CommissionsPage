@@ -401,8 +401,8 @@
   z-index: 0;
   float: left;
   position: absolute;
-  top: 208px;
-  left: 338px;
+  top: 28.4vh;
+  left: 46.4vh;
 }
 
 .hook > img {
@@ -422,8 +422,8 @@
   z-index: 0;
   float: left;
   position: absolute;
-  top: 752px;
-  left: 215px;
+  top:103.7vh;
+  left: 29.7vh;
   width: 307px;
   height: 50px;
   border-radius: 0px 0px 10px 10px;
@@ -434,8 +434,8 @@
   z-index: 0;
   float: left;
   position: absolute;
-  top: 512px;
-  left: 472px;
+  top: 70.6vh;
+  left: 65.1vh;
   width: 50px;
   height: 40vh;
   border-radius: 0px 0px 10px 0px;
@@ -446,8 +446,8 @@
   z-index: 0;
   float: left;
   position: absolute;
-  top: 312px;
-  left: 460px;
+  top: 43vh;
+  left: 63.5vh;
   width: 0;
   height: 200px;
   border-top: 80px solid transparent;
@@ -458,8 +458,8 @@
   z-index: 0;
   float: left;
   position: absolute;
-  top: 512px;
-  left: 215px;
+  top: 70.6vh;
+  left: 29.7vh;
   width: 50px;
   height: 40vh;
   border-radius: 0px 0px 0px 10px;
@@ -470,8 +470,8 @@
   z-index: 0;
   float: left;
   position: absolute;
-  top: 312px;
-  left: 215px;
+  top: 43vh;
+  left: 29.7vh;
   width: 0;
   height: 200px;
   border-top: 80px solid transparent;
