@@ -388,7 +388,9 @@
   height: 70vh;
   margin: 80px 60px 60px 60px;
   padding: 35px 20px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-image: url(https://64.media.tumblr.com/a4bd71d3c213ac560574471c78d3d140/b5aee68b4f16152b-84/s500x750/1f64d71cf717eb0ef386eee1ecb88d65ce75fb46.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   border-radius: 10px;
   box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
 }
@@ -398,11 +400,10 @@
 }
 
 .hook {
-  z-index: 0;
-  float: left;
-  position: absolute;
-  top: 28.4vh;
-  left: 46.4vh;
+  z-index: 1;
+  margin-top: -7px;
+  left: 246px;
+  position: relative;
 }
 
 .hook > img {
@@ -416,66 +417,6 @@
   width: 25px;
   height: 25px;
   margin-top: -20px !important;
-}
-
-.square {
-  z-index: 0;
-  float: left;
-  position: absolute;
-  top:103.7vh;
-  left: 29.7vh;
-  width: 307px;
-  height: 50px;
-  border-radius: 0px 0px 10px 10px;
-  background: #f991b086;
-}
-
-.rectangle-right {
-  z-index: 0;
-  float: left;
-  position: absolute;
-  top: 70.6vh;
-  left: 65.1vh;
-  width: 50px;
-  height: 40vh;
-  border-radius: 0px 0px 10px 0px;
-  background: #f991b03f;
-}
-
-.triangle-right {
-  z-index: 0;
-  float: left;
-  position: absolute;
-  top: 43vh;
-  left: 63.5vh;
-  width: 0;
-  height: 200px;
-  border-top: 80px solid transparent;
-  border-right: 62px solid #f991b03f;
-}
-
-.rectangle-left {
-  z-index: 0;
-  float: left;
-  position: absolute;
-  top: 70.6vh;
-  left: 29.7vh;
-  width: 50px;
-  height: 40vh;
-  border-radius: 0px 0px 0px 10px;
-  background: #f991b03f;
-}
-
-.triangle-left {
-  z-index: 0;
-  float: left;
-  position: absolute;
-  top: 43vh;
-  left: 29.7vh;
-  width: 0;
-  height: 200px;
-  border-top: 80px solid transparent;
-  border-left: 62px solid #f991b03f;
 }
 
 .id-title {
