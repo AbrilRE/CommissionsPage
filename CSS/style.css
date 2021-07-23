@@ -30,7 +30,7 @@ a:hover{
 
 .button {
   color: #ffffff;
-  background-color: #f991b0;
+  background-color: #f7a2bd;
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -54,8 +54,9 @@ a:hover{
 
 .button:hover,
 .button-close:hover {
-  background-color: #ae657b;
-  transform: scale(1.02);
+  color: #ffffff !important;
+  background-color: #ec90ac;
+  transform: scale(1.03);
 }
 
 .container-fluid {
@@ -63,7 +64,7 @@ a:hover{
 }
 
 .sec-1 {
-  background-image: url(../IMG/back.jpg);
+  background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1627061186/Portfolio%20images/back_ymsvnm.jpg);
   opacity: 92%;
   background-size: 100%;
   background-position-y: 0%;
@@ -71,7 +72,7 @@ a:hover{
 }
 
 .sec-2 {
-  background-image: url(../IMG/foot.jpg);
+  background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1627061186/Portfolio%20images/foot_ozomq9.jpg);
   opacity: 92%;
   background-size: 100%;
   background-position-y: 100%;

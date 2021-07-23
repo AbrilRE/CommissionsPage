@@ -220,7 +220,7 @@
   [class*="about-id"] {
     width: 21%;
     height: 64vh;
-    margin: 80px 60px 60px 60px;
+    margin: 80px 80px 60px 0px;
     padding: 35px 20px;
   }
 
@@ -230,7 +230,7 @@
 
   [class*="hook"] {
     margin-top: -15px;
-    left: 303px;
+    left: 245px;
   }
 
   [class*="hook"] > img {
@@ -248,7 +248,7 @@
 
   [class*="id-title"] {
     margin-bottom: 10px !important;
-    font-size: 3em;
+    font-size: 2.5em;
     color: #f991b0;
     font-weight: bold;
     font-variant: small-caps;
@@ -261,7 +261,7 @@
   }
 
   [class*="id-name"] {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #000000bd;
     font-weight: bold;
     font-variant: small-caps;
@@ -270,35 +270,169 @@
   [class*="id-subtitle"] {
     margin-top: -5px !important;
     margin-bottom: 20px !important;
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #000000af;
     font-weight: bold;
     font-style: italic;
   }
 
-  [class*="id-detail-title"] {
-    font-size: 1.5em;
-    font-weight: 800;
-  }
-
-  [class*="id-detail"] {
+  [class*="detail-title"] {
     font-size: 1.1em;
-    color: #00000093;
+    margin-bottom: 8px !important;
   }
 
   [class*="id-bar"] {
-    z-index: 1;
     width: 180px;
     height: 45px;
-    margin-top: 45px !important;
+    margin-top: 40px !important;
   }
 
   [class*="about-description"] {
-    font-size: 1.5em;
-    width: 50%;
+    width: 55%;
     padding: 80px 0px;
   }
-    
+
+  [class*="ab-des-title"] {
+    font-size: 2em;
+    text-align: left;
+  }
+
+  [class*="ab-des-cont"] {
+    font-size: 1.22em;
+  }
+  
+  [class*="ab-small"] {
+    font-size: 1em;
+  }
+
+  /*graphs*/
+  [class*="gra-cont"] {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 30px 30px 30px;
+  }
+  
+  [class*="gra-text"] {
+    font-size: 1.25em;
+    margin-bottom: 40px;
+  }
+  
+  [class*="circle-gra"] {
+    background-color: #dad8d8;
+    height: 180px;
+    width: 180px;
+    border: 20px solid #f991b0;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(45deg);
+  }
+  
+  [class*="cir-bar"] {
+    height: 180px;
+    width: 180px;
+    border: 20px solid #f991b0;
+    transform: rotate(130deg);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+
+  [class*="graph2"] {
+    border-right-color: transparent;
+  }
+  
+  [class*="bar2"] {
+    transform: rotate(55deg);
+  }
+  
+  [class*="bar3"] {
+    transform: rotate(105deg);
+  }
+  
+  [class*="graph4"] {
+    border-right-color: transparent;
+  }
+  
+  [class*="bar4"] {
+    transform: rotate(37deg);
+  }
+  
+  [class*="circ-fill"] {
+    height: 140px;
+    width: 140px;
+  }
+  
+  [class*="percent"] {
+    font-size: 1.5em;
+    top: -105px;
+    left: 7px;
+  }
+
+  /*ABOUT SECOND*/
+  [class*="a-sec-cont"] {
+    margin-top: 100px;
+    display: flex;
+  }
+  
+  [class*="about-second"] {
+    margin: 20px;
+    padding: 35px;
+    height: 500px;
+    width: 500px;
+  }
+  
+  [class*="aicon"] {
+    font-size: 90px;
+    margin: 15px;
+  }
+  
+  [class*="atitle"] {
+    font-size: 1.9em;
+  }
+  
+  [class*="a-subtitle"] {
+    text-align: center;
+    font-size: 1.45em;
+    margin-top: -12px !important;
+    margin-bottom: 10px !important;
+  }
+  
+  [class*="content"] {
+    font-size: 1.1em;
+  }
+  
+  [class*="a-line"] {
+    margin-top: 20px;
+    width: 20%;
+    border-top: 2px solid rgb(0, 0, 0);
+  }
+  
+  [class*="ab-q-container"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px 0px 50px;
+  }
+  
+  [class*="quote-image"] {
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+  }
+  
+  [class*="about-quote"] {
+    font-size: 1.7em;
+  }
+  
+  [class*="q-autor"] {
+    font-size: 1.4em;
+    margin-top: -20px;
+  }
+  /*ABOUT SOCIAL*/
+
   [class*="about-social-container"] {
     margin-bottom: 180px;
   }
@@ -310,13 +444,13 @@
 
   [class*="about-social-info"] {
     width: 60%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: 4%;
   }
 
   [class*="about-social-link"] {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin: 10px;
     font-size: 0.45em;
   }
@@ -581,7 +715,7 @@
 
   [class*="about-id"] {
     width: 105%;
-    height: 71vh;
+    height: 63vh;
     margin: 0px 60px 60px 60px;
     padding: 35px 20px;
   }
@@ -648,7 +782,7 @@
     text-align: justify;
     padding: 15px 0px;
   }
-    
+
   [class*="about-social-container"] {
     margin-bottom: 180px;
   }
@@ -667,7 +801,7 @@
   [class*="about-social-link"] {
     width: 110px;
     height: 110px;
-    margin:20px;
+    margin: 20px;
     font-size: 0.3em;
   }
 
