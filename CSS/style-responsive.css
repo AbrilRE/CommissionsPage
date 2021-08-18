@@ -531,7 +531,7 @@
   }
 
   [class*="about-icon"] {
-    width: 50%;
+    width: 40%;
     border-radius: 100px;
   }
 
@@ -746,7 +746,96 @@
     margin-bottom: 15px !important;
     font-size: 2.2em;
   }
-  /*ooo*/
+  /*about me graph*/
+  [class*="cir-cont"] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  [class*="gra-cont"] {
+    width: 120px;
+    margin: 15px;
+  }
+  
+  [class*="gra-text"] {
+    font-size: 1em;
+    margin-bottom: 30px;
+  }
+
+  [class*="circle-gra"] {
+    height: 110px;
+    width: 110px;
+  }
+  
+  [class*="cir-bar"] {
+    height: 110px;
+    width: 110px;
+  }
+  
+  [class*="circ-fill"] {
+    height: 85px;
+    width: 85px;
+  }
+  
+  [class*="percent"] {
+    top: -62px;
+    left: 45px;
+  }
+
+   /*about me cards*/
+   [class*="a-sec-cont"] {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  
+  [class*="about-second"] {
+    padding: 25px;
+    height:300px;
+    width:100%;
+  }
+  
+  [class*="aicon"] {
+    font-size: 40px;
+    margin: 5px;
+  }
+  
+  [class*="atitle"] {
+    font-variant: small-caps;
+    font-size: 1.3em;
+    font-weight: bolder;
+  }
+  
+  [class*="a-subtitle"] {
+    font-variant: small-caps;
+    font-size: 1em;
+    margin-top: -5px !important;
+    margin-bottom: 8px !important;
+    font-weight: bold;
+  }
+  
+  [class*="content"] {
+    font-size: 0.7em;
+  }
+  
+  [class*="a-line"] {
+    width: 20%;
+    margin-top: 10px;
+  }
+
+  /*about quote*/
+  [class*="about-quote"] {
+    font-size: 1em;
+  }
+  
+  [class*="q-autor"] {
+    font-size: 0.8em;
+    margin-top: -10px;
+  }
+  
+  /*social links*/
   [class*="id-img"] {
     width: 150px;
   }
