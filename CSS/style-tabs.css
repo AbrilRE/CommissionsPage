@@ -385,6 +385,11 @@
   line-height: 190%;
 }
 
+.coms-list{
+  color: #f991b0;
+  font-weight: 700;
+}
+
 /*ABOUT*/
 .about-container {
   width: 101%;
