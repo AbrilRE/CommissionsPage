@@ -9,7 +9,7 @@
 }
 
 .carousel1 {
-  background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1627070483/Portfolio%20images/banmoku_tynljg.png);
+  background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1629329796/Portfolio%20images/Porfolio/pinkuRenderFinal3_mwczmf.png);
   background-position: 40% 30%;
   background-size: 100%;
 }
@@ -21,7 +21,7 @@
 }
 
 .carousel3 {
-  background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1627070486/Portfolio%20images/Banmoku_light3_hml88a.png);
+  background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1629329795/Portfolio%20images/Porfolio/Banmoku_light3_gaydcg.png);
   background-position: 40% 55%;
   background-size: 100%;
 }
@@ -209,6 +209,14 @@
 
 .nav-link-com {
   width: 150px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.nav-com2 {
+  width: 80px;
   display: flex !important;
   justify-content: center;
   align-items: center;

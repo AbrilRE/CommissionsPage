@@ -21,5 +21,6 @@ function change(src, type) {
   if (type === 'icon') document.getElementById("main-image").src = src
   else if (type === 'half') document.getElementById("main-image2").src = src
   else if (type === 'full') document.getElementById("main-image3").src = src
+  else if (type === 'custom') document.getElementById("main-image4").src = src
 }
 
